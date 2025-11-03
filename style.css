@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at center, #000010, #020024);
+  color: #fff;
+  text-align: center;
+  min-height: 100vh;
+}
+
+header {
+  padding: 20px;
+  border-bottom: 1px solid #0ff;
+}
+
+h1 {
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #00f;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #00f;
+}
+
+.hero {
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #0ff;
+  text-shadow: 0 0 10px #0ff, 0 0 20px #00f;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: transparent;
+  color: #0ff;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0ff;
+  color: #000;
+  box-shadow: 0 0 20px #0ff, 0 0 40px #00f;
+}
+
+.content {
+  padding: 60px 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #0ff;
+  border-radius: 8px;
+  background: transparent;
+  color: #fff;
+}
+
+textarea {
+  height: 120px;
+}
+
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  border-top: 1px solid #0ff;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
