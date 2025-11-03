@@ -5,8 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contact | AnimeVerse</title>
   <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
+  <div class="neon-bg"></div>
+
   <header>
     <h1>✨ AnimeVerse ✨</h1>
     <nav>
@@ -16,18 +19,19 @@
     </nav>
   </header>
 
-  <section class="content">
+  <section class="content fade-in">
     <h2>Contact Us</h2>
-    <form>
+    <form id="contactForm">
       <input type="text" placeholder="Your Name" required />
       <input type="email" placeholder="Your Email" required />
       <textarea placeholder="Your Message" required></textarea>
       <button type="submit" class="btn">Send Message</button>
     </form>
+    <p id="msg"></p>
   </section>
 
   <footer>
-    <p>© 2025 AnimeVerse | All Rights Reserved</p>
+    <p>© 2025 AnimeVerse | Glow with us ⚡</p>
   </footer>
 </body>
 </html>
